@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-$latex_options = '-synctex=1 -interaction=nonstopmode -halt-on-error';
+$latex_options = '-synctex=1 -halt-on-error -file-line-error';
 
 # OS によって実行ファイル名が異なるので、OSを判断する
 # Windows の場合
